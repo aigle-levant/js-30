@@ -6,15 +6,15 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            JavaScript 30
+title:            'JS 30'
 tagline:          'A Jekyll theme'
-description:      'A website to store my solutions'
+description:      'A website to store my solutions for JavaScript 30 challenge conducted by Wes Bos'
 url:              'https://aigle-levant.github.io/js-30/'
 baseurl: ""
 
 author:
   name:           'Aigle'
-  url:            https://twitter.com/mdo
+  url:            https://github.com/aigle-levant
 
 plugins:                [jekyll-paginate]
 paginate:            5
