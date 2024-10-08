@@ -1,6 +1,6 @@
-.highlight .hll { background-color: #ffc; }
-.highlight .c { color: #999; } /* Comment */
-.highlight .err { color: #a00; background-color: #faa } /* Error */
+.highlight .hll { background-color: #282A36; }
+.highlight .c { color: #6272A4; } /* Comment */
+.highlight .err { color: #a00; background-color: #FF5555 } /* Error */
 .highlight .k { color: #069; } /* Keyword */
 .highlight .o { color: #555 } /* Operator */
 .highlight .cm { color: #09f; font-style: italic } /* Comment.Multiline */
