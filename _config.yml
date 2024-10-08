@@ -10,12 +10,13 @@ title:            JavaScript 30
 tagline:          'A Jekyll theme'
 description:      'A website to store my solutions'
 url:              'https://aigle-levant.github.io/js-30/'
+baseurl: ""
 
 author:
   name:           'Aigle'
   url:            https://twitter.com/mdo
 
-gems:                [jekyll-paginate]
+plugins:                [jekyll-paginate]
 paginate:            5
 paginate_path:       "page:num"
 
@@ -23,4 +24,4 @@ paginate_path:       "page:num"
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/aigle-levant/js-30
