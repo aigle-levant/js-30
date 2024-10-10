@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="day-one.css">
+</head>
+<body>
+    <div class="container">
+        <div class="key-container flex flex-row pos-at-center padding">
+            <div data-key="KeyA" class="key flex flex-column box padding">
+                <kbd>A</kbd>
+                <span class="sound-info smaller-font">BOOM</span>
+            </div>
+            <div data-key="KeyB" class="key flex flex-column box padding">
+                <kbd>B</kbd>
+                <span class="sound-info smaller-font">CLAP</span>
+            </div>
+            <div data-key="KeyC" class="key flex flex-column box padding">
+                <kbd>C</kbd>
+                <span class="sound-info smaller-font">HIHAT</span>
+            </div>
+            <div data-key="KeyD" class="key flex flex-column box padding">
+                <kbd>D</kbd>
+                <span class="sound-info smaller-font">KICK</span>
+            </div>
+            <div data-key="KeyE" class="key flex flex-column box padding">
+                <kbd>E</kbd>
+                <span class="sound-info smaller-font">OPENHAT</span>
+            </div>
+            <div data-key="KeyF" class="key flex flex-column box padding">
+                <kbd>F</kbd>
+                <span class="sound-info smaller-font">RIDE</span>
+            </div>
+            <div data-key="KeyG" class="key flex flex-column box padding">
+                <kbd>G</kbd>
+                <span class="sound-info smaller-font">SNARE</span>
+            </div>
+            <div data-key="KeyH" class="key flex flex-column box padding">
+                <kbd>H</kbd>
+                <span class="sound-info smaller-font">TINK</span>
+            </div>
+            <div data-key="KeyI" class="key flex flex-column box padding">
+                <kbd>I</kbd>
+                <span class="sound-info smaller-font">TOM</span>
+            </div>
+        </div>
+        <div class="audio-files">
+            <audio data-key="KeyA" src="day-one\boom.wav"></audio>
+            <audio data-key="KeyB" src="day-one\clap.wav"></audio>
+            <audio data-key="KeyC" src="day-one\hihat.wav"></audio>
+            <audio data-key="KeyD" src="day-one\kick.wav"></audio>
+            <audio data-key="KeyE" src="day-one\openhat.wav"></audio>
+            <audio data-key="KeyF" src="day-one\ride.wav"></audio>
+            <audio data-key="KeyG" src="day-one\snare.wav"></audio>
+            <audio data-key="KeyH" src="day-one\tink.wav"></audio>
+            <audio data-key="KeyI" src="day-one\tom.wav"></audio>
+        </div>
+    </div>
+    <script src="day-one.js" defer></script>
+</body>
+</html>
