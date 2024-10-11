@@ -1,0 +1,68 @@
+/* AIGLE */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body
+{
+    font-family: 'Open Sans', monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* common classes */
+.round
+{
+    border-radius: 50%;
+}
+.center
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hand
+{
+    background-color:rgb(185, 182, 178);
+    width: 50%;
+    height: 0.3rem;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58,1);
+
+}
+.roman-num
+{
+    top: 50%;
+    left: 2%;
+}
+.number
+{
+    color:rgb(129, 123, 112);
+    font-weight: bold;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(calc(var(--i) * 30deg)) translate(8rem) rotate(calc(var(--i) * -30deg));
+}
+
+/* unique classes */
+.clock
+{
+    background-color:antiquewhite;
+    width: 20rem;
+    height: 20rem;
+    transform: translateY(-3px);
+    margin: 5rem auto;
+}
+.clock-face
+{
+    background-color:aliceblue;
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
