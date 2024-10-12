@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* AIGLE */
+:root
+{
+    /* variables */
+    --blur: 1rem;
+    --spacing: 1rem;
+    --base: #CC7722;
+    /* styles */
+    font-size: 15px;
+}
+
+body
+{
+    font-family: 'Open Sans', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #03312E;
+    color: #FCDEBE;
+    font-weight: 550;
+}
+
+.heading
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--base);
+}
+.sub-heading
+{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.section-spacing
+{
+    margin: 1rem 0 2rem 0;
+    padding: 1rem;
+}
+
+.image-size
+{
+    width: 40%;
+    height: 40%;
+}
+.property
+{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}

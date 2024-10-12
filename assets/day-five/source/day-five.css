@@ -1,0 +1,68 @@
+/* AIGLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+body
+{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color:whitesmoke;
+}
+
+.quattrocento
+{
+    font-family: 'Quattrocento', sans-serif;
+}
+.cinzel
+{
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+}
+
+/* images */
+.image
+{
+    padding: 1rem;
+    text-align: center;
+    width: 20%;
+}
+.image-one
+{
+    background-image: url("..\\images\\venti.png");
+    height: max-content;
+}
+.image-two
+{
+    background-image: url("..\\images\\zhongli.png");
+}
+.image-three
+{
+    background-image: url("..\\images\\ei.png");
+}
+.image-four
+{
+    background-image: url("..\\images\\nahida.png");
+}
+.image-five
+{
+    background-image: url("..\\images\\furina.png");
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.flex-row
+{
+    flex-direction: row;
+}
+.flex-column
+{
+    flex-direction: column;
+}
