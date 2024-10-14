@@ -10,8 +10,19 @@ body
     margin: 0;
     padding: 0;
     color:whitesmoke;
+    background-color: black;
+    height: 100%;
 }
 
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* font-related styles */
 .quattrocento
 {
     font-family: 'Quattrocento', sans-serif;
@@ -25,30 +36,62 @@ body
 /* images */
 .image
 {
-    padding: 1rem;
     text-align: center;
-    width: 20%;
-}
-.image-one
-{
-    background-image: url("..\\images\\venti.png");
     height: max-content;
+    width: 30%;
+    background-position: center;
 }
-.image-two
+.before-change
 {
-    background-image: url("..\\images\\zhongli.png");
+    height: 50vh;
+    transition: all 0.8s ease;
+    filter:sepia(10);
 }
-.image-three
+.after-change
 {
-    background-image: url("..\\images\\ei.png");
+    height: 100vh;
+    transition: all 0.8s ease;
+    filter:brightness(2);
 }
-.image-four
+.image-one.after-change
 {
-    background-image: url("..\\images\\nahida.png");
+    color:blanchedalmond;
+}
+.image-two.after-change
+{
+    color:darkgoldenrod;
+}
+.image-three.after-change
+{
+    color:cornflowerblue;
+}
+.image-four.after-change
+{
+    color:darksalmon;
 }
 .image-five
 {
-    background-image: url("..\\images\\furina.png");
+    color: aquamarine;
+}
+.image-one
+{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url("..\\images\\venti.png");
+}
+.image-two
+{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url("..\\images\\zhongli.png");
+}
+.image-three
+{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("..\\images\\ei.png");
+}
+.image-four
+{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("..\\images\\nahida.png");
+}
+.image-five
+{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("..\\images\\furina.png");
 }
 
 .flex
