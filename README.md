@@ -16,7 +16,7 @@ As for your question, I did the following :
 
 - Forked the repository.
 - Opened up `_config.yml` and edited some details to make it feel personal to my purpose.
-- Removed `baseurl` and added the following code :
+- Added the following code :
 
 ```yml
 plugins:   [jekyll-paginate]
