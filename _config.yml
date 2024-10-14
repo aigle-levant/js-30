@@ -4,13 +4,14 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
+relative_permalinks: true
 
 # Setup
 title:            'JS 30'
 tagline:          'A Jekyll theme'
 description:      'A website to store my solutions for JavaScript 30 challenge conducted by Wes Bos'
 url:              'https://aigle-levant.github.io/js-30/'
-baseurl: '/'
+baseurl: /
 
 author:
   name:           'Aigle'
